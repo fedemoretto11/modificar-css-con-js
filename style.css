@@ -1,0 +1,39 @@
+:root {
+    --color: #ffeafd;
+    --spacing: 10px;
+    --blur: 0px;
+    --tamaño: 500px;
+}
+
+img {
+    padding: var(--spacing);
+    background: var(--color);
+    filter:blur(var(--blur));
+    height: var(--tamaño);
+}
+
+.h2 {
+    color: var(--color);
+}
+
+
+body {
+    text-align: center;
+    background: #193549;
+    color: aliceblue;
+    font-weight: 100;
+    font-size: 25px;
+}
+
+.controls {
+    margin-bottom: 50px;
+}
+
+a {
+    color: var(--color);
+    text-decoration: none;
+}
+
+input {
+    width: 100px;
+}
